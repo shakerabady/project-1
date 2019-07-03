@@ -1,0 +1,55 @@
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    background-color: olive;
+    height: auto; 
+    
+}
+
+.header{
+    grid-column: 1/4;
+}
+.pic{
+    grid-column: 4/5;
+    grid-row: 1; 
+    border:1px black solid;
+    border-radius: 4px;  
+
+}
+.exp{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    height: auto; 
+}
+.ex1{
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 1;
+}
+.info1{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.lorem{
+    grid-column:2/4;
+    grid-row: 1; 
+}
+.skills{
+    grid-column: 4/6;
+}
+.list{
+    grid-column: 4;
+    grid-row:1;
+}
+.education{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    height: auto; 
+}
+.edu{
+    
+}
