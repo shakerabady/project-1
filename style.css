@@ -1,0 +1,93 @@
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    background-color: olive;
+    height: auto; 
+    margin: 0px 50px 70px 50px;
+    
+}
+
+.header{
+    grid-column: 1/4;
+}
+.pic{
+    grid-column: 4/5;
+    grid-row: 1; 
+    border:1px black solid;
+    border-radius: 4px;  
+
+}
+.exp{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    height: auto; 
+    margin: 0px 50px 70px 50px;
+
+}
+.ex1{
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 1;
+    
+}
+.info1{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
+    margin: 50px;
+}
+.lorem{
+    grid-column:2/4;
+    grid-row: 1; 
+}
+.skills{
+    grid-column: 4/6;
+}
+.list{
+    grid-column: 4;
+    grid-row:1;
+}
+.education{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    height: auto; 
+}
+.edu{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows:auto;
+    margin: 50px 50px 70px 50px;
+}
+.date{
+    grid-column: 1;
+}
+
+.lorem1{
+    grid-column: 2/4;
+    grid-row: 1;
+}
+.award{
+    grid-column: 4/6;
+}
+.intrest{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
+}
+.l1{
+    grid-column: 1;
+    grid-row: auto
+}
+.li2{
+    grid-column: 2;
+    grid-row: auto
+
+}
+.li3{
+    grid-column: 3;
+    grid-row: auto
+
+}
