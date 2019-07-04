@@ -2,10 +2,11 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
-    background-color: olive;
+    background-image: url(https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg);
     height: auto; 
-<<<<<<< HEAD
     margin: 0px 50px 70px 50px;
+    color: white;
+    
 =======
 >>>>>>> 21ee93ac1651c122eefd489a61793e3813eb96fb
     
@@ -26,8 +27,8 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     height: auto; 
-<<<<<<< HEAD
     margin: 0px 50px 70px 50px;
+    border-top: 2px solid black;
 
 =======
 >>>>>>> 21ee93ac1651c122eefd489a61793e3813eb96fb
@@ -36,7 +37,6 @@
     display: grid;
     grid-template-columns: 2;
     grid-template-rows: 1;
-<<<<<<< HEAD
     
 =======
 >>>>>>> 21ee93ac1651c122eefd489a61793e3813eb96fb
@@ -44,7 +44,6 @@
 .info1{
     display: grid;
     grid-template-columns: repeat(5,1fr);
-<<<<<<< HEAD
     grid-template-rows: auto;
     margin: 50px;
 =======
@@ -69,11 +68,10 @@
     height: auto; 
 }
 .edu{
-<<<<<<< HEAD
     display: grid;
     grid-template-columns: repeat(5,1fr);
     grid-template-rows:auto;
-    margin: 50px 50px 70px 50px;
+    margin: 50px;
 }
 .date{
     grid-column: 1;
@@ -90,6 +88,8 @@
     display: grid;
     grid-template-columns: repeat(5,1fr);
     grid-template-rows: auto;
+    margin: 50px;
+    border-bottom: 2px solid black;
 }
 .l1{
     grid-column: 1;
@@ -102,9 +102,47 @@
 }
 .li3{
     grid-column: 3;
-    grid-row: auto
+    grid-row: auto    
+}
+label {
+    padding-right: 10px;
+    font-size: 1rem;
+}
+.lang{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.eng{
+    grid-column:1 ;
+    margin: 10px;
 
-=======
-    
->>>>>>> 21ee93ac1651c122eefd489a61793e3813eb96fb
+}
+.french{
+    grid-column: 2;
+    margin: 10px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-image: linear-gradient(to left,gray,rgb(10, 56, 78),rgba(255, 255, 0, 0.226));
+    height: 100px;
+}
+.first{
+    grid-column: 1;
+    justify-content: center;
+    margin-left: 100px; 
+    margin-top: 20px;
+
+}
+.second{
+    grid-column: 2;
+    justify-content: center;
+    margin-left: 100px; 
+    margin-top: 20px;
+}
+.third{
+    grid-column: 3;
+    justify-content: center;
+    margin-left: 100px; 
+    margin-top: 20px; 
 }
